@@ -15,7 +15,7 @@ def intercambiar_tupla(tupla):
     print(type(tupla))
 
   
-#Escribe una función llamada encontrar_pares_impares que acepte una tupla de
+#3Escribe una función llamada encontrar_pares_impares que acepte una tupla de
 #números enteros como parámetro y devuelva una tupla que contenga dos listas: una
 #lista de números pares y otra lista de números impares. Por ejemplo, si la tupla original
 #es (1, 2, 3, 4, 5, 6, 7, 8, 9), la función debería devolver ([2, 4, 6, 8], [1, 3, 5, 7, 9]).
