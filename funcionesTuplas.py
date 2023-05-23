@@ -9,5 +9,7 @@ def intercambiar_tupla(tupla):
         num2=tupla[-1]
     tupla[0]= num2
     tupla[-1]= num1
-    print(tupla)
+    tupla=tuple(tupla)
+    print(f"La tupla generada donde el 1er numero se encuentra al ultimo y el el ultimo al incio es:  {tupla}")
+    print(type(tupla))
     

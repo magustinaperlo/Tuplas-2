@@ -37,7 +37,7 @@ while c<=4:
     num=input()
     c+=1
     numerosIngresado.append(num)
-print(numerosIngresado)
+print(f"Los numeros ingresados son: {numerosIngresado}")
 tupla=numerosIngresado
 funcionesTuplas.intercambiar_tupla(tupla)
 
