@@ -15,7 +15,6 @@ while c!=10:
 print(f"La lista generada es: {listaNum}")
 
 for num in reversed(listaNum):
-    print(num)
     listaNumRev.append(num)
 
 tuplListaNum=tuple(listaNumRev)
