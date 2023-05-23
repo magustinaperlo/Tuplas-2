@@ -14,6 +14,7 @@ indiceIngresado = int(indiceIngresado)
 if indiceIngresado < len(tuplDefinida):
     numeroTupla = tuplDefinida[indiceIngresado]
     print("En el índice " + str(indiceIngresado) + " se encuentra el número " + str(numeroTupla))
-
+else:
+    print("El índice ingresado está fuera de rango.")
 
 
