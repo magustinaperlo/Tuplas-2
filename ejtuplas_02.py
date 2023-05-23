@@ -12,4 +12,6 @@ numero=numero-1
 if numero <= (len(tuplaMeses)):
     print(tuplaMeses[numero])
 else:
-    ("ingresa un numero comprendido ente 1 y 11")
+    #("ingresa un numero comprendido ente 1 y 11")
+    #faltó el print para que el usuario vea el mensajito 4
+    print("Error: ingresa un numero comprendido ente 1 y 11")
