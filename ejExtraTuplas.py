@@ -1,4 +1,5 @@
-'''
+import funcionesTuplas
+
 #Escribe un programa que solicite al usuario que ingrese una lista de números enteros.
 #El programa debe crear una tupla a partir de la lista y luego imprimir la tupla en orden
 #inverso.
@@ -25,8 +26,9 @@ for num in reversed(listaNum):
     listaNumRev.append(num)
 tuplListaNum=tuple(listaNumRev)
 print(f"la tupla generada reversa es: {tuplListaNum}")
-'''
-import funcionesTuplas
+
+
+
 numerosIngresado=[]
 msj=""
 c=1
@@ -38,6 +40,24 @@ while c<=4:
     c+=1
     numerosIngresado.append(num)
 print(f"Los numeros ingresados son: {numerosIngresado}")
+numerosIngresado=tuple(numerosIngresado)
 tupla=numerosIngresado
 funcionesTuplas.intercambiar_tupla(tupla)
 
+
+
+tupInt=()
+msj=""
+c=1
+
+msj="Ingresa 10 numeros: "
+print(msj)
+while c<=10:
+    num=int(input())
+    c+=1
+    tupInt=list(tupInt)
+    tupInt.append(num)
+
+print(f"Los numeros ingresados son: {tupInt}")
+
+funcionesTuplas.encontrar_pares_impares(tupInt)
